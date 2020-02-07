@@ -38,11 +38,51 @@ print(name.first)
 print(name.last)
 print(name.dropLast())
 print(name.dropFirst())
-print(name.randomElement())
+print(name.randomElement()!)
 
 let half = "½" as Character
 
 print(half.isNumber)
+
+var a: String?
+a = "Hello"
+a = nil
+print(a ?? "No Value")
+
+if let x = a
+{
+    print(x.lowercased())
+} else {
+    print("a is nil")
+}
+// Display name
+for i in 1...10
+{
+    let c = String(i)
+    print("\(i) Jyothi James")
+}
+//Dispaly number
+for i in 1..<10
+{
+    print(i)
+}
+//Display odd nos
+for i in stride(from: 2, to: 10, by: 2)
+{
+    print(i)
+}
+
+//Display reverse
+for i in stride(from: 10, to: 0, by: -2)
+{
+    print(i)
+}
+
+
+
+
+
+
 
 
 
